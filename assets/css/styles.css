@@ -366,6 +366,7 @@ input[type="checkbox"] {
   line-height: 0;
   cursor: pointer;
   transition: all 0.2s;
+  font-family: "Poppins", sans-serif;
 }
 
 .form-control-submit-button:hover {
@@ -420,7 +421,7 @@ input[type="checkbox"] {
 /*     Navigation     */
 /**********************/
 .navbar {
-  background-color: #1b1e7b;
+  background-color: #1d3557;
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 0.875rem;
@@ -456,7 +457,7 @@ input[type="checkbox"] {
   padding-left: 1rem;
   overflow-y: auto;
   visibility: hidden;
-  background-color: #1b1e7b;
+  background-color: #fff;
   transition: visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out,
