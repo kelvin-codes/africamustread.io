@@ -54,7 +54,7 @@
   </head>
   <body data-spy="scroll" data-target=".fixed-top">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
       <div class="container">
         <!-- Text Logo - Use this if you don't have a graphic logo -->
         <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Gemdev</a> -->
@@ -80,6 +80,13 @@
             <li class="nav-item">
               <a class="nav-link page-scroll" href="#details">
                 Reading Club
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#events">
+                Events
                 <span class="sr-only">(current)</span>
               </a>
             </li>
@@ -190,10 +197,10 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-xl-7">
-            <div class="image-container">
+            <div class="image-container round">
               <img
                 class="img-fluid"
-                src="assets/images/home.svg"
+                src="assets/images/reader-2.webp"
                 alt="alternative"
               />
             </div>
@@ -250,7 +257,7 @@
           <div class="image-container">
             <img
               class="img-fluid"
-              src="assets/images/Book Lover_Two Color.svg"
+              src="assets/images/reader-3.webp"
               alt="alternative"
             />
           </div>
@@ -258,13 +265,7 @@
         </div>
         <!-- end of col -->
         <div class="col-lg-4">
-          <h3>Membership</h3>
-          <hr />
-          <p>
-            To become a member, fill
-            <a href="" class="text-primary">this form</a>
-          </p>
-          <h4>Membership Benefits</h4>
+          <h4>Membership</h4>
           <p>
             Becoming a member of AMR is an undoubtedly good intellectual
             investment. With the numerous befits of reading, these are some of
@@ -292,13 +293,29 @@
               <div class="media-body">Receive a copy of a book every month</div>
             </li>
           </ul>
-          <a class="btn-solid-reg mfp-close page-scroll" href="#contact">
-            Fill Form
-          </a>
-          <button class="btn-outline-reg mfp-close as-button" type="button">
-            Back
-          </button>
+          <p>
+            To become a member, hit the download form button below and fill out
+            the form.
+            <br />
+            <br />
+            After filling out the details, send scanned document to
+            <a class="text-primary">africamustread@gmail.com</a>
+          </p>
+          <p>
+            <a
+              class="btn-solid-reg mfp-close page-scroll"
+              href="/AMR Website/assets/Download/AMR FINAL.docx"
+              download
+            >
+              Download Form
+            </a>
+
+            <button class="btn-outline-reg mfp-close as-button" type="button">
+              Back
+            </button>
+          </p>
         </div>
+
         <!-- end of col -->
       </div>
       <!-- end of row -->
@@ -338,10 +355,10 @@
           </div>
           <!-- end of col -->
           <div class="col-lg-6 col-xl-7">
-            <div class="image-container">
+            <div class="image-container round">
               <img
                 class="img-fluid"
-                src="assets/images/Shopping cart_Monochromatic.svg"
+                src="assets/images/reader-5.jpg"
                 alt="alternative"
               />
             </div>
@@ -543,11 +560,11 @@
     <!-- end of testimonials -->
 
     <!-- Projects -->
-    <div id="projects" class="filter bg-gray">
+    <div id="books" class="filter bg-gray">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h2 class="h2-heading">Best Selling Books</h2>
+            <h2 class="h2-heading" id="">Best Selling Books</h2>
           </div>
           <!-- end of col -->
         </div>
@@ -557,16 +574,19 @@
               <div class="col-lg-4 mb-4">
                 <div class="card">
                   <img
-                    src="assets/images/book-1.jpg"
+                    src="assets/images/book-1.jpeg"
                     alt=""
                     class="card-img-top"
                   />
                   <div class="card-body">
                     <p class="card-text">
-                      Richard Templar ||
+                      Nana Ama Buckman ||
                       <span class="text-primary bold">Ghs 20</span>
                     </p>
-                    <a href="" class="btn btn-outline-primary btn-solid-reg">
+                    <a
+                      href="tel:+233248859319"
+                      class="btn btn-outline-primary btn-solid-reg"
+                    >
                       Buy Now
                     </a>
                   </div>
@@ -575,16 +595,19 @@
               <div class="col-lg-4 mb-4">
                 <div class="card">
                   <img
-                    src="assets/images/book-2.jpg"
+                    src="assets/images/book-4.jpeg"
                     alt=""
                     class="card-img-top"
                   />
                   <div class="card-body">
                     <p class="card-text">
-                      Authors Unite ||
+                      Nana Ama Buckman ||
                       <span class="text-primary bold">Ghs 20</span>
                     </p>
-                    <a href="" class="btn btn-outline-primary btn-solid-reg">
+                    <a
+                      href="tel:+233248859319"
+                      class="btn btn-outline-primary btn-solid-reg"
+                    >
                       Buy Now
                     </a>
                   </div>
@@ -593,16 +616,19 @@
               <div class="col-lg-4 mb-4">
                 <div class="card">
                   <img
-                    src="assets/images/book-3.jpg"
+                    src="assets/images/book-6.jpeg"
                     alt=""
                     class="card-img-top"
                   />
                   <div class="card-body">
                     <p class="card-text">
-                      Austin Eneanya ||
+                      Nana Ama Buckman ||
                       <span class="text-primary bold">Ghs 20</span>
                     </p>
-                    <a href="" class="btn btn-outline-primary btn-solid-reg">
+                    <a
+                      href="tel:+233248859319"
+                      class="btn btn-outline-primary btn-solid-reg"
+                    >
                       Buy Now
                     </a>
                   </div>
@@ -611,16 +637,19 @@
               <div class="col-lg-4 mb-4">
                 <div class="card">
                   <img
-                    src="assets/images/book-3.jpg"
+                    src="assets/images/book-4.jpeg"
                     alt=""
                     class="card-img-top"
                   />
                   <div class="card-body">
                     <p class="card-text">
-                      Austin Eneanya ||
+                      Nana Ama Buckman ||
                       <span class="text-primary bold">Ghs 20</span>
                     </p>
-                    <a href="" class="btn btn-outline-primary btn-solid-reg">
+                    <a
+                      href="tel:+233248859319"
+                      class="btn btn-outline-primary btn-solid-reg"
+                    >
                       Buy Now
                     </a>
                   </div>
@@ -629,16 +658,19 @@
               <div class="col-lg-4 mb-4">
                 <div class="card">
                   <img
-                    src="assets/images/book-2.jpg"
+                    src="assets/images/book-6.jpeg"
                     alt=""
                     class="card-img-top"
                   />
                   <div class="card-body">
                     <p class="card-text">
-                      Authors Unite ||
+                      Nana Ama Buckman ||
                       <span class="text-primary bold">Ghs 20</span>
                     </p>
-                    <a href="" class="btn btn-outline-primary btn-solid-reg">
+                    <a
+                      href="tel:+233248859319"
+                      class="btn btn-outline-primary btn-solid-reg"
+                    >
                       Buy Now
                     </a>
                   </div>
@@ -647,16 +679,19 @@
               <div class="col-lg-4 mb-4">
                 <div class="card">
                   <img
-                    src="assets/images/book-1.jpg"
+                    src="assets/images/book-5.jpeg"
                     alt=""
                     class="card-img-top"
                   />
                   <div class="card-body">
                     <p class="card-text">
-                      Richard Templar ||
+                      Nana Ama Buckman ||
                       <span class="text-primary bold">Ghs 20</span>
                     </p>
-                    <a href="" class="btn btn-outline-primary btn-solid-reg">
+                    <a
+                      href="tel:+233248859319"
+                      class="btn btn-outline-primary btn-solid-reg"
+                    >
                       Buy Now
                     </a>
                   </div>
@@ -670,6 +705,62 @@
     </div>
     <!-- end of filter -->
     <!-- end of projects -->
+
+    <!-- Details 2 -->
+    <div class="basic-3" id="events">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-xl-5">
+            <div class="text-container">
+              <h2>Key Programs & Events</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
+                deserunt explicabo sunt dolore maiores officiis inventore animi
+                repellendus nisi quos.
+              </p>
+              <ul class="list-unstyled li-space-lg">
+                <li class="media">
+                  <i class="fas fa-square"></i>
+                  <div class="media-body">
+                    <strong>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Sed, quisquam.
+                    </strong>
+                  </div>
+                </li>
+                <li class="media">
+                  <i class="fas fa-square"></i>
+                  <div class="media-body">
+                    <strong>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Impedit, architecto.
+                    </strong>
+                  </div>
+                </li>
+              </ul>
+              <!--<a class="btn-solid-reg" href="#books">Best Sellers</a>-->
+            </div>
+            <!-- end of text-container -->
+          </div>
+          <!-- end of col -->
+          <div class="col-lg-6 col-xl-7">
+            <div class="image-container round">
+              <img
+                class="img-fluid"
+                src="assets/images/reader-1.webp"
+                alt="alternative"
+              />
+            </div>
+            <!-- end of image-container -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of basic-3 -->
+    <!-- end of details 2 -->
 
     <!-- Contact -->
     <div id="contact" class="form-1">
