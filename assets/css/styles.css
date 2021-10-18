@@ -674,6 +674,10 @@ input[type="checkbox"] {
   margin-left: 0.5rem;
 }
 
+.download-button {
+  font-family: "Poppins", sans-serif;
+}
+
 /****************************/
 /*     Details Lightbox     */
 /****************************/
@@ -835,6 +839,7 @@ input[type="checkbox"] {
 }
 
 .basic-5 .text-container {
+  font-family: "Poppins", sans-serif;
   margin-bottom: 3rem;
 }
 
@@ -1506,9 +1511,14 @@ a {
   border-radius: 20px;
 }
 
+.my-flex-card > div > div.card {
+  height: calc(100% - 15px);
+  margin-bottom: 15px;
+}
+
 .card img {
   max-width: 100%;
-  max-height: 370px;
+  max-height: 100%;
 }
 
 .card-sl {
